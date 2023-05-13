@@ -6,3 +6,62 @@ $gray: #F3F3F3
   margin: 0
   padding: 0
   box-sizing: border-box
+  font-family: 'Space Grotesk', sans-serif
+
+.container
+  max-width: 85vw
+  margin: 0 auto
+
+.nav-wrap
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 2rem 0
+  ul
+    display: flex
+    align-items: center
+    gap: 2rem
+    list-style: none
+    a
+      text-decoration: none
+      text-transform: capitalize
+      font-size: 1rem
+      color: $black
+    .quote
+      border: 1px solid black
+      padding: 1rem
+      border-radius: 4px
+      transition: ease-in-out 0
+    .quote:hover
+      background-color: $green
+
+.hero-wrap
+  display: flex
+  align-items: center
+  padding: 2.5rem 0
+  gap: 4rem
+  .hero-text
+    display: flex
+    flex-direction: column
+    gap: 1.5rem
+    h1
+      font-size: 3.4rem
+    p
+      font-size: 1.2rem
+      max-width: 85%
+    button
+      background-color: $black
+      color: $gray
+      font-size: 1rem
+      padding: 1rem
+      border: none
+      border-radius: 10px
+      max-width: 40%
+  .hero-img
+    img
+      max-width: 40vw
+
+.companies
+  display: flex
+  gap: 4rem
+  align-items: center
