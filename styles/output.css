@@ -178,6 +178,91 @@
   gap: 1rem;
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #F3F3F3;
+  padding: 1rem 3rem;
+  gap: 6rem;
+  border-radius: 3rem;
+}
+.banner .banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.banner .banner-text h1 {
+  font-size: 2rem;
+}
+.banner .banner-text p {
+  font-size: 1rem;
+  max-width: 85%;
+}
+.banner .banner-text button {
+  background-color: #191A23;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  max-width: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.banner .banner-img {
+  padding-right: 3rem;
+}
+.banner .banner-img img {
+  max-width: 25vw;
+}
+
+.case-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 5rem 0;
+}
+.case-wrap .case-head {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.case-wrap .case-head h1 {
+  background-color: #B9FF66;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.case-wrap .case-head p {
+  max-width: 50%;
+}
+.case-wrap .case-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem;
+  background-color: #191A23;
+  border-radius: 3rem;
+  border: none;
+}
+.case-wrap .case-content .case-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.case-wrap .case-content .case-item p {
+  color: #fff;
+  font-size: 1rem;
+}
+.case-wrap .case-content .case-item button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #191A23;
+  font-size: 1rem;
+  border: none;
+  color: #B9FF66;
+}
+
 @media screen and (max-width: 350px) {
   .hero-wrap {
     display: flex;

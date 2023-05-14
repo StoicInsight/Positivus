@@ -157,6 +157,78 @@ $gray: #F3F3F3
     align-items: center
     gap: 1rem
 
+// BANNER ----------------------------------------------------------------------
+.banner
+  display: flex
+  align-items: center
+  background-color: $gray
+  padding: 1rem 3rem
+  gap: 6rem
+  border-radius: 3rem
+  .banner-text
+    display: flex
+    flex-direction: column
+    gap: 1.5rem
+    h1
+      font-size: 2rem
+    p
+      font-size: 1rem
+      max-width: 85%
+    button
+      background-color: $dark
+      color: #fff
+      padding: 1rem
+      border-radius: 10px
+      border: none
+      max-width: 50%
+      font-size: 1rem
+      cursor: pointer
+  .banner-img
+    padding-right: 3rem
+    img
+      max-width: 25vw
+
+// CASE STUDIES ----------------------------------------------------------------
+.case-wrap
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  gap: 2rem
+  padding: 5rem 0
+  .case-head
+    display: flex
+    gap: 3rem
+    align-items: center
+    h1
+      background-color: $green
+      padding: .5rem
+      border-radius: 5px
+    p
+      max-width: 50%
+  .case-content
+    display: flex
+    gap: 3rem
+    align-items: center
+    padding: 3rem
+    background-color: $dark
+    border-radius: 3rem
+    border: none
+    .case-item
+      display: flex
+      flex-direction: column
+      gap: 2rem
+      p
+        color: #fff
+        font-size: 1rem
+      button
+        display: flex
+        align-items: center
+        gap: 1rem
+        background-color: $dark
+        font-size: 1rem
+        border: none
+        color: $green
+
 // MEDIA QUERIES----------------------------------------------------------------
 @media screen and (max-width: 350px)
   // nav
