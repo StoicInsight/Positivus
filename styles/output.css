@@ -5,6 +5,13 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
+.green-text {
+  background-color: #B9FF66;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 0.4rem;
+}
+
 .container {
   max-width: 85vw;
   margin: 0 auto;
@@ -89,12 +96,6 @@
   gap: 2rem;
   padding: 1.5rem 0;
 }
-.service-head h1 {
-  background-color: #B9FF66;
-  font-size: 2rem;
-  border-radius: 10px;
-  padding: 0.4rem;
-}
 .service-head p {
   max-width: 50%;
 }
@@ -170,7 +171,6 @@
 }
 .text h1 {
   background-color: #B9FF66;
-  background-clip: hidden;
 }
 .text .learn {
   display: flex;
@@ -227,11 +227,6 @@
   gap: 3rem;
   align-items: center;
 }
-.case-wrap .case-head h1 {
-  background-color: #B9FF66;
-  padding: 0.5rem;
-  border-radius: 5px;
-}
 .case-wrap .case-head p {
   max-width: 50%;
 }
@@ -268,6 +263,9 @@
   align-items: center;
   gap: 3rem;
   padding: 0 0 3rem 0;
+}
+.process-wrap .process-head p {
+  max-width: 30%;
 }
 .process-wrap .process-items {
   display: flex;
