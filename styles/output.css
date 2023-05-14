@@ -263,6 +263,42 @@
   color: #B9FF66;
 }
 
+.process-wrap .process-head {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 0 3rem 0;
+}
+.process-wrap .process-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.process-wrap .process-items .process-item {
+  padding: 1.5rem;
+  border-radius: 30px;
+  background-color: #F3F3F3;
+  border-bottom: 5px solid #000000;
+  cursor: pointer;
+}
+
+.process-top {
+  display: flex;
+  justify-content: space-between;
+}
+.process-top .process-top-text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.process-top .process-top-text h1 {
+  font-size: 3rem;
+}
+.process-top .process-top-text h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 350px) {
   .hero-wrap {
     display: flex;
