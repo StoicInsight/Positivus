@@ -258,8 +258,35 @@ $gray: #F3F3F3
       font-size: 1.5rem
       font-weight: 500
 
-// TEAM SECTION ----------------------------------------------------------------
-
+// TEAM SECTION ---------------------------------------------------------------- 
+.team
+  padding: 2rem 0
+  .team-head
+    display: flex
+    align-items: center
+    gap: 3rem
+    padding-bottom: 3rem
+    p
+      max-width: 40%
+  .team-items
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    gap: 2rem
+    .team-item
+      padding: 1.5rem
+      border: 1px solid
+      border-bottom: 3px solid
+      border-radius: 20px
+      .team-item-top
+        display: flex
+        gap: 1rem
+        align-items: flex-end
+        padding-bottom: 1rem
+        border-bottom: 1px solid black
+        h1
+          font-size: 1rem
+        .team-position
+          font-weight: 100
 // MEDIA QUERIES----------------------------------------------------------------
 @media (max-width: 450px)
   .nav

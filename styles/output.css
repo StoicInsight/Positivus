@@ -297,6 +297,43 @@
   font-weight: 500;
 }
 
+.team {
+  padding: 2rem 0;
+}
+.team .team-head {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+.team .team-head p {
+  max-width: 40%;
+}
+.team .team-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.team .team-items .team-item {
+  padding: 1.5rem;
+  border: 1px solid;
+  border-bottom: 3px solid;
+  border-radius: 20px;
+}
+.team .team-items .team-item .team-item-top {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+.team .team-items .team-item .team-item-top h1 {
+  font-size: 1rem;
+}
+.team .team-items .team-item .team-item-top .team-position {
+  font-weight: 100;
+}
+
 @media (max-width: 450px) {
   .nav .mobile img {
     min-width: 2.1rem;
