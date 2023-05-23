@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: white;
   font-family: "Space Grotesk", sans-serif;
+}
+
+.marquee {
+  gap: 2rem;
+  background-color: red;
 }
 
 .green-text {
@@ -335,15 +341,45 @@
 }
 
 @media (max-width: 450px) {
-  .nav .mobile img {
-    min-width: 2.1rem;
+  .nav .nav-wrap {
+    padding: 2rem 0 0 0;
+  }
+  .nav .nav-wrap .logo img {
+    max-width: 85%;
+  }
+  .nav .nav-wrap .mobile img {
+    width: 30px;
     cursor: pointer;
   }
-  .nav .nav-items {
+  .nav .nav-wrap .nav-items {
     display: none;
   }
   .hero-wrap {
     flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+  .hero-wrap .hero-text {
+    gap: 1rem;
+  }
+  .hero-wrap .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hero-wrap .hero-text p {
+    font-size: 0.8rem;
+    max-width: 100%;
+  }
+  .hero-wrap .hero-text button {
+    max-width: 100%;
+  }
+  .hero-wrap .hero-img img {
+    max-width: 100%;
+  }
+  .services-wrap {
+    background-color: green;
+  }
+  .services-wrap .service-head {
+    flex-direction: column;
+    background-color: brown;
   }
 }
 

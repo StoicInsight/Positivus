@@ -7,7 +7,12 @@ $gray: #F3F3F3
   margin: 0
   padding: 0
   box-sizing: border-box
+  background-color: #ffff
   font-family: 'Space Grotesk', sans-serif
+
+.marquee
+  gap: 2rem
+  background-color: red
 
 .green-text
   background-color: $green
@@ -287,15 +292,41 @@ $gray: #F3F3F3
           font-size: 1rem
         .team-position
           font-weight: 100
+
 // MEDIA QUERIES----------------------------------------------------------------
 @media (max-width: 450px)
   .nav
-    .mobile
-      img
-        min-width: 2.1rem
-        cursor: pointer
-    .nav-items
-      display: none
-
+    // position: fixed
+    // width: 100%
+    .nav-wrap
+      padding: 2rem 0 0 0
+      .logo
+        img
+          max-width: 85%
+      .mobile
+        img
+          width: 30px
+          cursor: pointer
+      .nav-items
+        display: none
   .hero-wrap
     flex-direction: column-reverse
+    gap: .5rem
+    .hero-text
+      gap: 1rem
+      h1
+        font-size: 1.8rem
+      p
+        font-size: .8rem
+        max-width: 100%
+      button
+        max-width: 100%
+    .hero-img
+      img
+        max-width: 100%
+
+  .services-wrap
+    background-color: green
+    .service-head
+      flex-direction: column
+      background-color: brown
