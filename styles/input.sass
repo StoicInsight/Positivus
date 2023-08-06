@@ -49,6 +49,8 @@ body
       transition: ease-in-out 0
     .quote:hover
       background-color: $green
+  .mobile
+    display: none
 
 // HEROOO----------------------------------------------------------------
 .hero-wrap
@@ -298,8 +300,8 @@ body
 // MEDIA QUERIES----------------------------------------------------------------
 @media (max-width: 450px)
   .nav
-    // position: fixed
-    // width: 100%
+    position: sticky
+    width: 100%
     .nav-wrap
       padding: 2rem 0 0 0
       .logo
@@ -351,3 +353,20 @@ body
         max-width: 100%
     .banner-img
       display: none
+@media (max-width: 805px)
+  .nav
+    position: fixed
+    width: 100%
+    .nav-wrap
+      padding: 2rem 0 0 0
+      .logo
+        img
+          max-width: 85%
+      .mobile
+        display: none
+        img
+          width: 30px
+          cursor: pointer
+          display: none
+      .nav-items
+        display: none
